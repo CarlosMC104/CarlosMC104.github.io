@@ -162,3 +162,16 @@
 a:hover[class^="cc-github"]{
   background-color: #000;
 }
+
+
+.progress-container.progress-primary .progress-badge {
+  color: #000;
+  font-weight: bold;
+}
+
+
+
+.progress-container.progress-primary .progress-value, .progress-container.progress-primary .progress-badge {
+  color: #000;
+  font-weight: bold;
+}
