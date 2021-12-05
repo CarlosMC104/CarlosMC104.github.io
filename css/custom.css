@@ -138,7 +138,7 @@ a:hover, a:focus {
 
 
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
+  
   font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
@@ -147,7 +147,6 @@ a:hover, a:focus {
   text-transform: none;
   line-height: 1;
 
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -208,6 +207,25 @@ a:hover[class^="cc-github"]{
   bottom:0;
 }
 
-.fjafe{
+
+
+/*Apartado de contacto*/
+
+.img-contact{
+  display: block;
+  border-radius: 20%;
+  object-fit: cover;
+  box-shadow: 0 0 10px  rgba(11, 200, 247, 0.644);
+  margin-top: 5%;
+  margin-bottom: 5%;
   
+}
+.btn-contacto{
+  display: block;
+  border-style: none;
+  margin: auto;
+  width: 50%;
+  border-radius: 50%;
+  margin-top: 5px;
+
 }
