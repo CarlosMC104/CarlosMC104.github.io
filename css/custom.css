@@ -194,3 +194,16 @@ a:hover[class^="cc-github"]{
 .gallery figure.cc-effect img, .gallery figure.cc-effect .h4 {
   transform: scale(1.1, 1.1);
 }
+
+
+/*Onditas en el cambio de secciones*/
+.absolute{
+  position: absolute;
+  width: 100%;
+  top:0;
+}
+.absolute1{
+  position: absolute;
+  width: 100%;
+  bottom:0;
+}
