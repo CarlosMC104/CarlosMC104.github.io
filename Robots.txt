@@ -1,0 +1,9 @@
+Sitemap: https://carlosmc104.github.io/sitemap.xml
+
+User-agent: *
+
+Disallow: /css/
+Disallow: /imges/
+Disallow: /js/
+Disallow: /scripts/
+Disallow: /README.md
