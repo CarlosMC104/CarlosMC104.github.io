@@ -229,3 +229,16 @@ a:hover[class^="cc-github"]{
   margin-top: 5px;
 
 }
+
+/*Imagen sobre mi*/
+.img-sobremi{
+  object-fit: cover;
+  box-shadow: 0 0 10px  rgba(11, 200, 247, 0.644);
+
+}
+
+
+
+.mb-0{
+  text-align: center;
+}
