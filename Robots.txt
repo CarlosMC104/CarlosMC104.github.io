@@ -2,8 +2,5 @@ Sitemap: https://carlosmc104.github.io/sitemap.xml
 
 User-agent: *
 
-Disallow: /css/
 Disallow: /images/
-Disallow: /js/
-Disallow: /scripts/
 Disallow: /README.md
