@@ -1,6 +1,5 @@
 Sitemap: https://carlosmc104.github.io/sitemap.xml
 
 User-agent: *
-
 Disallow: /images/
 Disallow: /README.md
