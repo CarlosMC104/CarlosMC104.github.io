@@ -414,7 +414,7 @@ a:hover[class^="cc-github"]{
 @media (min-width: 480px) {
   #timeline .demo-card .head h2 {
     font-size: 165%;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
  }
 }
 #timeline .demo-card .head h2 span {
@@ -478,7 +478,6 @@ a:hover[class^="cc-github"]{
   border-color: #46b8e9;
 }
 
-
 a {
   color: #04115e;
 }
@@ -487,3 +486,4 @@ a:hover, a:focus {
   color: #3ee9d1;
   text-decoration: none;
 }
+
