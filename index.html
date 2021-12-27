@@ -1,848 +1,563 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Carlos Mohedano Callejo" />
-    <meta
-      name="description"
-      content="Web personal de Carlos Mohedano Callejo, estudiante de Ingeniería Informática en la especialización de Tecnologías de Información. Esta página muestra información sobre mí, mis conomientos, proyectos, formación y contacto"
-    />
-    <meta
-      name="keywords"
-      content="Web Personal, Carlos Mohedano Callejo, Carlos Mohedano, estudiante ingeniería informática, tecnología de información, ingeniería informática, Escuela Superior de Informática, ESI"
-    />
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow" />
-    <meta name="bingbot" content="index, follow" />
 
-    <title>Carlos Mohedano Callejo</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Carlos Mohedano Callejo" />
+  <meta name="description"
+    content="Web personal de Carlos Mohedano Callejo, estudiante de Ingeniería Informática en la especialización de Tecnologías de Información. Esta página muestra información sobre mí, mis conomientos, proyectos, formación y contacto" />
+  <meta name="keywords"
+    content="Web Personal, Carlos Mohedano Callejo, Carlos Mohedano, estudiante ingeniería informática, tecnología de información, ingeniería informática, Escuela Superior de Informática, ESI" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="bingbot" content="index, follow" />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-NCXJZV8NM1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
+  <title>Carlos Mohedano Callejo</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NCXJZV8NM1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-NCXJZV8NM1");
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/aos.css?ver=1.1.0" rel="stylesheet" />
+  <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet" />
+  <link href="css/main.css?ver=1.1.0" rel="stylesheet" />
+  <link href="css/custom.css" rel="stylesheet" />
+  <link href="favicon.ico" rel="icon" />
+
+  <noscript>
+    <style type="text/css">
+      [data-aos] {
+        opacity: 1 !important;
+        transform: translate(0) scale(1) !important;
       }
-      gtag("js", new Date());
+    </style>
+  </noscript>
+</head>
 
-      gtag("config", "G-NCXJZV8NM1");
-    </script>
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200"
-      rel="stylesheet"
-    />
-    <link
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
-    <link href="css/aos.css?ver=1.1.0" rel="stylesheet" />
-    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet" />
-    <link href="css/main.css?ver=1.1.0" rel="stylesheet" />
-    <link href="css/custom.css" rel="stylesheet" />
-    <link href="favicon.ico" rel="icon" />
-
-    <noscript>
-      <style type="text/css">
-        [data-aos] {
-          opacity: 1 !important;
-          transform: translate(0) scale(1) !important;
-        }
-      </style>
-    </noscript>
-  </head>
-  <body id="top">
-    <header>
-      <div class="profile-page sidebar-collapse">
-        <nav
-          class="
+<body id="top">
+  <header>
+    <div class="profile-page sidebar-collapse">
+      <nav class="
             navbar navbar-expand-lg
             fixed-top
             navbar-transparent
             bg-primary
-          "
-          color-on-scroll="400"
-        >
-          <div class="container">
-            <div class="navbar-translate">
-              <a class="navbar-brand smooth-scroll" href="#inicio" rel="tooltip"
-                >Carlos Mohedano Callejo</a
-              >
-              <button
-                class="navbar-toggler navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navigation"
-                aria-controls="navigation"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-bar bar1"></span
-                ><span class="navbar-toggler-bar bar2"></span
-                ><span class="navbar-toggler-bar bar3"></span>
-              </button>
-            </div>
-            <div
-              class="collapse navbar-collapse justify-content-end"
-              id="navigation"
-            >
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link smooth-scroll" href="#inicio">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link smooth-scroll" href="#about">Sobre mí</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link smooth-scroll" href="#conocimiento"
-                    >Conocimientos</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link smooth-scroll" href="#portfolio"
-                    >Portfolio</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link smooth-scroll" href="#formacion"
-                    >Formación</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link smooth-scroll" href="#contact">Contacto</a>
-                </li>
-              </ul>
-            </div>
+          " color-on-scroll="400">
+        <div class="container">
+          <div class="navbar-translate">
+            <a class="navbar-brand smooth-scroll" href="#inicio" rel="tooltip">Carlos Mohedano Callejo</a>
+            <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+              aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span
+                class="navbar-toggler-bar bar3"></span>
+            </button>
           </div>
-        </nav>
-      </div>
-    </header>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#about">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#conocimiento">Conocimientos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#formacion">Formación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-    <div class="page-content">
-      <div class="absolute1" style="height: 150px; overflow: hidden">
-        <svg
-          viewBox="0 0 500 150"
-          preserveAspectRatio="none"
-          style="height: 100%; width: 100%"
-        >
-          <path
-            d="M-14.95,54.78 C243.50,197.88 349.20,-49.98 562.36,167.28 L500.00,150.00 L0.00,150.00 Z"
-            style="stroke: none; fill: rgb(138, 197, 248)"
-          ></path>
-        </svg>
-      </div>
-      <div>
-        <div class="profile-page" id="inicio">
-          <div class="wrapper">
-            <div class="page-header page-header-small" filter-color="green">
-              <div
-                class="page-header-image"
-                data-parallax="true"
-                style="
+  <div class="page-content">
+    <div class="absolute1" style="height: 150px; overflow: hidden">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+        <path d="M-14.95,54.78 C243.50,197.88 349.20,-49.98 562.36,167.28 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: rgb(138, 197, 248)"></path>
+      </svg>
+    </div>
+    <div>
+      <div class="profile-page" id="inicio">
+        <div class="wrapper">
+          <div class="page-header page-header-small" filter-color="green">
+            <div class="page-header-image" data-parallax="true" style="
                   background-image: linear-gradient(
                       to top right,
                       rgba(0, 255, 255, 0.521) 20%,
                       rgba(35, 105, 255, 0.507) 70%
                     ),
                     url('images//Inicio/fondo.jpg');
-                "
-              ></div>
-              <div class="container">
-                <div class="content-center">
-                  <div class="cc-profile-image">
-                    <a href="#contact"
-                      ><img src="images/Inicio/fotomia.jpg" alt="Image"
-                    /></a>
-                  </div>
-                  <div class="h2 title">Carlos Mohedano Callejo</div>
-                  <p class="category text-white">
-                    Estudiante 4º Ingeniería Informática
-                  </p>
-                  <a
-                    class="btn btn-primary"
-                    href="images/Inicio/CurriculumPrueba.pdf"
-                    ,
-                    target="_blank"
-                    download="Curriculum"
-                    data-aos="zoom-in"
-                    data-aos-anchor="data-aos-anchor"
-                    >Descargar CV</a
-                  >
+                "></div>
+            <div class="container">
+              <div class="content-center">
+                <div class="cc-profile-image">
+                  <a href="#contact"><img src="images/Inicio/fotomia.jpg" alt="Image" /></a>
                 </div>
+                <div class="h2 title">Carlos Mohedano Callejo</div>
+                <p class="category text-white">
+                  Estudiante 4º Ingeniería Informática
+                </p>
+                <a class="btn btn-primary" href="images/Inicio/CurriculumPrueba.pdf" , target="_blank"
+                  download="Curriculum" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Descargar CV</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="section" id="about">
-          <!-- Generated by https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections -->
-          <div class="absolute" style="height: 150px; overflow: hidden">
-            <svg
-              viewBox="0 0 500 150"
-              preserveAspectRatio="none"
-              style="height: 100%; width: 100%"
-            >
-              <path
-                d="M0.00,49.98 C29.62,182.08 198.36,-91.27 510.44,91.30 L544.86,-166.27 L0.00,0.00 Z"
-                style="stroke: none; fill: rgb(138, 197, 248)"
-              ></path>
-            </svg>
-          </div>
+      </div>
+      <div class="section" id="about">
+        <!-- Generated by https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections -->
+        <div class="absolute" style="height: 150px; overflow: hidden">
+          <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+            <path d="M0.00,49.98 C29.62,182.08 198.36,-91.27 510.44,91.30 L544.86,-166.27 L0.00,0.00 Z"
+              style="stroke: none; fill: rgb(138, 197, 248)"></path>
+          </svg>
+        </div>
 
-          <div class="container">
-            <div class="card" data-aos="fade-up" data-aos-offset="10">
-              <div class="row">
-                <div class="col-lg-6 col-md-12">
-                  <div class="card-body">
-                    <div class="h4 mt-0 title">Sobre mí</div>
-                    <p>
-                      Hola, soy Carlos, estudiante de último año en
-                      <strong>Ingeniería Informática</strong> en la
-                      especificación de Tecnología de Información, en la Escuela
-                      Superior de Informática, de Ciudad Real.
-                    </p>
-                    <p>
-                      Me considero una persona <strong>trabajadora</strong> y
-                      <strong>organizada</strong>, además me gusta constantemente aprender cosas nuevas y proponerme nuevos retos.
-                    </p>
-                    <p>
-                      Me gustaría aportar mis conocimientos que he aprendido
-                      durante mi carrera universitaria, así cómo adquirir nuevos en mi trabajo.
-                    </p>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                  <div class="card-body">
-                    <div class="h4 mt-0 title">Información básica</div>
-                    <div class="row">
-                      <div class="col-sm-4">
-                        <strong class="text-uppercase">Nombre:</strong>
-                      </div>
-                      <div class="col-sm-8">Carlos Mohedano Callejo</div>
-                    </div>
-                    <div class="row mt-3">
-                      <div class="col-sm-4">
-                        <strong class="text-uppercase">Edad:</strong>
-                      </div>
-                      <div class="col-sm-8">21 años</div>
-                    </div>
-                    <div class="row mt-3">
-                      <div class="col-sm-4">
-                        <strong class="text-uppercase">Email:</strong>
-                      </div>
-                      <div class="col-sm-8">Carlos.Mohedano@alu.uclm.es</div>
-                    </div>
-                    <div class="row mt-3">
-                      <div class="col-sm-4">
-                        <strong class="text-uppercase">Teléfono:</strong>
-                      </div>
-                      <div class="col-sm-8">608804031</div>
-                    </div>
-                    <div class="row mt-3">
-                      <div class="col-sm-4">
-                        <strong class="text-uppercase">Idiomas:</strong>
-                      </div>
-                      <div class="col-sm-8">Ingles, Español</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <p style="text-align: center">
-                    <img
-                      class="img-sobremi"
-                      src="images/Inicio/fondo.jpg"
-                      alt="imagen personal"
-                      height="350px"
-                      width="500px"
-                    />
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section" id="conocimiento">
-          <div class="absolute1" style="height: 150px; overflow: hidden">
-            <svg
-              viewBox="0 0 500 150"
-              preserveAspectRatio="none"
-              style="height: 100%; width: 100%"
-            >
-              <path
-                d="M-14.95,54.78 C243.50,197.88 349.20,-49.98 562.36,167.28 L500.00,150.00 L0.00,150.00 Z"
-                style="stroke: none; fill: rgb(138, 197, 248)"
-              ></path>
-            </svg>
-          </div>
-          <div class="container">
-            <div class="h4 text-center mb-4 title">Conocimientos</div>
-            <div
-              class="card"
-              data-aos="fade-up"
-              data-aos-anchor-placement="top-bottom"
-            >
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="progress-container progress-primary">
-                      <img
-                        class="nombre"
-                        src="images/Conocimiento/piton.png"
-                        width="35"
-                      />
-                      <span class="progress-badge">Python</span>
-                      <div class="progress">
-                        <div
-                          class="progress-bar progress-bar-primary"
-                          data-aos="progress-full"
-                          data-aos-offset="10"
-                          data-aos-duration="2000"
-                          role="progressbar"
-                          aria-valuenow="60"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                          style="width: 75%; background-color: rgb(104, 104, 7)"
-                        ></div>
-                        <span class="progress-value">75%</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="progress-container progress-primary">
-                      <img
-                        class="nombre"
-                        src="images/Conocimiento/css.png"
-                        width="35"
-                      />
-                      <span class="progress-badge">CSS</span>
-                      <div class="progress">
-                        <div
-                          class="progress-bar progress-bar-primary"
-                          data-aos="progress-full"
-                          data-aos-offset="10"
-                          data-aos-duration="2000"
-                          role="progressbar"
-                          aria-valuenow="60"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                          style="width: 70%; background-color: blue"
-                        ></div>
-                        <span class="progress-value">70%</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="progress-container progress-primary">
-                      <img
-                        class="nombre"
-                        src="images/Conocimiento/java.png"
-                        width="35"
-                      />
-                      <span class="progress-badge">Java</span>
-                      <div class="progress">
-                        <div
-                          class="progress-bar progress-bar-primary"
-                          data-aos="progress-full"
-                          data-aos-offset="10"
-                          data-aos-duration="2000"
-                          role="progressbar"
-                          aria-valuenow="60"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                          style="width: 70%; background-color: red"
-                        ></div>
-                        <span class="progress-value">70%</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="progress-container progress-primary">
-                      <img
-                        class="nombre"
-                        src="images/Conocimiento/html-5.png"
-                        width="35"
-                      />
-                      <span class="progress-badge">HTML</span>
-                      <div class="progress">
-                        <div
-                          class="progress-bar progress-bar-primary"
-                          data-aos="progress-full"
-                          data-aos-offset="10"
-                          data-aos-duration="2000"
-                          role="progressbar"
-                          aria-valuenow="60"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                          style="width: 75%; background-color: orangered"
-                        ></div>
-                        <span class="progress-value">75%</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="progress-container progress-primary">
-                      <img
-                        class="nombre"
-                        src="images/Conocimiento/android.png"
-                        width="35"
-                      />
-                      <span class="progress-badge">Android</span>
-                      <div class="progress">
-                        <div
-                          class="progress-bar progress-bar-primary"
-                          data-aos="progress-full"
-                          data-aos-offset="10"
-                          data-aos-duration="2000"
-                          role="progressbar"
-                          aria-valuenow="60"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                          style="width: 50%; background-color: greenyellow"
-                        ></div>
-                        <span class="progress-value">50%</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="progress-container progress-primary">
-                      <img
-                        class="nombre"
-                        src="images/Conocimiento/bootstrap.png"
-                        width="35"
-                      />
-                      <span class="progress-badge">Bootstrap</span>
-                      <div class="progress">
-                        <div
-                          class="progress-bar progress-bar-primary"
-                          data-aos="progress-full"
-                          data-aos-offset="10"
-                          data-aos-duration="2000"
-                          role="progressbar"
-                          aria-valuenow="60"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                          style="width: 50%; background-color: purple"
-                        ></div>
-                        <span class="progress-value">50%</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="progress-container progress-primary">
-                      <img
-                        class="nombre"
-                        src="images/Conocimiento/csharp.png"
-                        width="35"
-                      />
-                      <span class="progress-badge">C#</span>
-                      <div class="progress">
-                        <div
-                          class="progress-bar progress-bar-primary"
-                          data-aos="progress-full"
-                          data-aos-offset="10"
-                          data-aos-duration="2000"
-                          role="progressbar"
-                          aria-valuenow="60"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                          style="width: 70%; background-color: mediumorchid"
-                        ></div>
-                        <span class="progress-value">70%</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="progress-container progress-primary">
-                      <img
-                        class="nombre"
-                        src="images/Conocimiento/javascript.png"
-                        width="35"
-                      />
-                      <span class="progress-badge">JavaScript</span>
-                      <div class="progress">
-                        <div
-                          class="progress-bar progress-bar-primary"
-                          data-aos="progress-full"
-                          data-aos-offset="10"
-                          data-aos-duration="2000"
-                          role="progressbar"
-                          aria-valuenow="60"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                          style="width: 75%; background-color: yellow"
-                        ></div>
-                        <span class="progress-value">75%</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section" id="portfolio">
-          <div class="absolute" style="height: 150px; overflow: hidden">
-            <svg
-              viewBox="0 0 500 150"
-              preserveAspectRatio="none"
-              style="height: 100%; width: 100%"
-            >
-              <path
-                d="M0.00,49.98 C29.62,182.08 198.36,-91.27 510.44,91.30 L544.86,-166.27 L0.00,0.00 Z"
-                style="stroke: none; fill: rgb(138, 197, 248)"
-              ></path>
-            </svg>
-          </div>
-
-          <div class="container">
+        <div class="container">
+          <div class="card" data-aos="fade-up" data-aos-offset="10">
             <div class="row">
-              <div class="col-md-6 ml-auto mr-auto">
-                <div class="h4 text-center mb-4 title">Portfolio</div>
-                <div class="nav-align-center">
-                  <ul class="nav nav-pills nav-pills-primary" role="tablist">
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active"
-                        data-toggle="tab"
-                        href="#web-development"
-                        role="tablist"
-                        ><i class="fa fa-laptop" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <!-- <li class="nav-item">
-                      <a
-                        class="nav-link"
-                        data-toggle="tab"
-                        href="#phone"
-                        role="tablist"
-                        ><i class="fa fa-picture-o" aria-hidden="true"></i
-                      ></a>
-                    </li> -->
-                  </ul>
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">Sobre mí</div>
+                  <p>
+                    Hola, soy Carlos, estudiante de último año en
+                    <strong>Ingeniería Informática</strong> en la
+                    especificación de Tecnología de Información, en la Escuela
+                    Superior de Informática, de Ciudad Real.
+                  </p>
+                  <p>
+                    Me considero una persona <strong>trabajadora</strong> y
+                    <strong>organizada</strong>, además me gusta constantemente aprender cosas nuevas y proponerme
+                    nuevos retos.
+                  </p>
+                  <p>
+                    Me gustaría aportar mis conocimientos que he aprendido
+                    durante mi carrera universitaria, así cómo adquirir nuevos en mi trabajo.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">Información básica</div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Nombre:</strong>
+                    </div>
+                    <div class="col-sm-8">Carlos Mohedano Callejo</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Edad:</strong>
+                    </div>
+                    <div class="col-sm-8">21 años</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Email:</strong>
+                    </div>
+                    <div class="col-sm-8">Carlos.Mohedano@alu.uclm.es</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Teléfono:</strong>
+                    </div>
+                    <div class="col-sm-8">608804031</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Idiomas:</strong>
+                    </div>
+                    <div class="col-sm-8">Ingles, Español</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <p style="text-align: center">
+                  <img class="img-sobremi" src="images/Inicio/fondo.jpg" alt="imagen personal" height="350px"
+                    width="500px" />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="conocimiento">
+        <div class="absolute1" style="height: 150px; overflow: hidden">
+          <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+            <path d="M-14.95,54.78 C243.50,197.88 349.20,-49.98 562.36,167.28 L500.00,150.00 L0.00,150.00 Z"
+              style="stroke: none; fill: rgb(138, 197, 248)"></path>
+          </svg>
+        </div>
+        <div class="container">
+          <div class="h4 text-center mb-4 title">Conocimientos</div>
+          <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <img class="nombre" src="images/Conocimiento/piton.png" width="35" />
+                    <span class="progress-badge">Python</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 75%; background-color: rgb(104, 104, 7)"></div>
+                      <span class="progress-value">75%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <img class="nombre" src="images/Conocimiento/css.png" width="35" />
+                    <span class="progress-badge">CSS</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 70%; background-color: blue"></div>
+                      <span class="progress-value">70%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <img class="nombre" src="images/Conocimiento/java.png" width="35" />
+                    <span class="progress-badge">Java</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 70%; background-color: red"></div>
+                      <span class="progress-value">70%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <img class="nombre" src="images/Conocimiento/html-5.png" width="35" />
+                    <span class="progress-badge">HTML</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 75%; background-color: orangered"></div>
+                      <span class="progress-value">75%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <img class="nombre" src="images/Conocimiento/android.png" width="35" />
+                    <span class="progress-badge">Android</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 50%; background-color: greenyellow"></div>
+                      <span class="progress-value">50%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <img class="nombre" src="images/Conocimiento/bootstrap.png" width="35" />
+                    <span class="progress-badge">Bootstrap</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 50%; background-color: purple"></div>
+                      <span class="progress-value">50%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <img class="nombre" src="images/Conocimiento/csharp.png" width="35" />
+                    <span class="progress-badge">C#</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 70%; background-color: mediumorchid"></div>
+                      <span class="progress-value">70%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <img class="nombre" src="images/Conocimiento/javascript.png" width="35" />
+                    <span class="progress-badge">JavaScript</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 75%; background-color: yellow"></div>
+                      <span class="progress-value">75%</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="tab-content gallery mt-5">
-              <div class="tab-pane active" id="web-development">
-                <div class="ml-auto mr-auto">
+          </div>
+        </div>
+      </div>
+      <div class="section" id="portfolio">
+        <div class="absolute" style="height: 150px; overflow: hidden">
+          <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+            <path d="M0.00,49.98 C29.62,182.08 198.36,-91.27 510.44,91.30 L544.86,-166.27 L0.00,0.00 Z"
+              style="stroke: none; fill: rgb(138, 197, 248)"></path>
+          </svg>
+        </div>
+        <div class="absolute1" style="height: 150px; overflow: hidden">
+          <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+            <path d="M-14.95,54.78 C243.50,197.88 349.20,-49.98 562.36,167.28 L500.00,150.00 L0.00,150.00 Z"
+              style="stroke: none; fill: rgb(138, 197, 248)"></path>
+          </svg>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 ml-auto mr-auto">
+              <div class="h4 text-center mb-4 title">Portfolio</div>
+              <div class="nav-align-center">
+                <ul class="nav nav-pills nav-pills-primary" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i
+                        class="fa fa-laptop" aria-hidden="true"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content gallery mt-5">
+            <div class="tab-pane active" id="web-development">
+              <div class="ml-auto mr-auto">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://github.com/CarlosMC104/Tamagotchi" target="_blank">
+                        <figure class="cc-effect">
+                          <img src="images/Portfolio/Tamagotchi-1.JPG" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Tamagotchi</div>
+                            <p>Práctica IPO2</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://github.com/CarlosMC104/BottlePuzle" target="_blank">
+                        <figure class="cc-effect">
+                          <img src="images/Portfolio/PuzleBottle.jpg" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Bottle Puzle</div>
+                            <p>Práctica Sistemas Inteligentes</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://github.com/CarlosMC104/MemeCollection" target="_blank">
+                        <figure class="cc-effect">
+                          <img src="images/Portfolio/MemeCollection-1.JPG" alt="Image" />
+                          <figcaption>
+                            <div class="h4">MemeCollection</div>
+                            <p>Práctica IPO2</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://github.com/CarlosMC104/Minijuegos_JJC" target="_blank">
+                        <figure class="cc-effect">
+                          <img src="images/Portfolio/MiniVerse.jpg" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Aplicación "Miniverse"</div>
+                            <p>Práctica Multimedia</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="formacion">
+        <div class="absolute1" style="height: 150px; overflow: hidden">
+          <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+            <path d="M-14.95,54.78 C243.50,197.88 349.20,-49.98 562.36,167.28 L500.00,150.00 L0.00,150.00 Z"
+              style="stroke: none; fill: rgb(138, 197, 248)"></path>
+          </svg>
+        </div>
+        <div class="absolute" style="height: 150px; overflow: hidden">
+          <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+            <path d="M0.00,49.98 C29.62,182.08 198.36,-91.27 510.44,91.30 L544.86,-166.27 L0.00,0.00 Z"
+              style="stroke: none; fill: rgb(138, 197, 248)"></path>
+          </svg>
+        </div>
+        <div class="h4 text-center mb-4 title">Formación</div>
+        <section id=timeline>
+          <!--<div class="h4 text-center mb-4 title">Formación</div>-->
+          <div class="demo-card-wrapper">
+            <div class="demo-card demo-card--step1">
+              <div class="head">
+                <div class="number-box">
+                  <span>2018</span>
+                </div>
+                <h2><span class="small"></span> Bachillerato Tecnógico</h2>
+              </div>
+              <div class="body">
+                <p>Título de Bachillerato Tecnógico obtenido en el instituto I.E.S Pablo Ruiz Picasso.</p>
+                <img src="images/Formacion/Picasso (1).jpg" alt="Graphic">
+              </div>
+            </div>
+        
+            <div class="demo-card demo-card--step2">
+              <div class="head">
+                <div class="number-box">
+                  <span>2018-Act</span>
+                </div>
+                <h2><span class="small"></span> Ingeniería Informática</h2>
+              </div>
+              <div class="body">
+                <p>Actualmente estoy en el último año de la carrera en la <a href="https://esi.uclm.es/" target="_blank">Escuela Superior de Informática</a> de Ciudad Real.</p>
+                <img src="images/Formacion/ESI (1).jpg" alt="Graphic">
+              </div>
+            </div>
+        
+            <div class="demo-card demo-card--step3">
+              <div class="head">
+                <div class="number-box">
+                  <span>2020</span>
+                </div>
+                <h2><span class="small"></span> Curso Python 3</h2>
+              </div>
+              <div class="body">
+                <p>Curso comleto de Python 3 cursado en la página de <a href="https://www.udemy.com/" target="_blank">Udemy</a>.</p>
+                <img src="images/Formacion/curso-python (1).jpg" alt="Graphic">
+              </div>
+            </div>
+        
+            <div class="demo-card demo-card--step4">
+              <div class="head">
+                <div class="number-box">
+                  <span>2021</span>
+                </div>
+                <h2><span class="small"></span> Curso desarrollo web</h2>
+              </div>
+              <div class="body">
+                <p>Curso de<a href="https://learndigital.withgoogle.com/activate/course/web-development-I" target="_blank"> introducción al desarrollo web: HTML y CSS</a> ofrecido por Google.</p>
+                <img src="images/Formacion/Curso-Google (1).jpg" alt="Graphic">
+              </div>
+            </div>
+        
+            <div class="demo-card demo-card--step5">
+              <div class="head">
+                <div class="number-box">
+                  <span>2021</span>
+                </div>
+                <h2><span class="small"></span> Introducción a la CiberSeguridad</h2>
+              </div>
+              <div class="body">
+                <p>Curso de introducción a la CiberSeguridad ofrecido por<a href="https://www.udemy.com/" target="_blank"> Udemy</a>.</p>
+                <img src="images/Formacion/curso-ciberseguridad (1).jpg" alt="Graphic">
+              </div>
+            </div>
+            
+          </div>
+        </section>
+      
+      </div>
+
+    <div class="section" id="contact">
+      <div class="absolute" style="height: 150px; overflow: hidden">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+          <path d="M0.00,49.98 C-24.54,149.52 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+            style="stroke: none; fill: rgb(138, 197, 248)"></path>
+        </svg>
+      </div>
+      <div class="cc-contact-information" style="background-image: url('images/Contacto/MapaChillon.JPG')">
+        <div class="container">
+          <div class="cc-contact">
+            <div class="row">
+              <div class="col-md-9">
+                <div class="card mb-0" data-aos="zoom-in">
+                  <div class="h4 text-center title">Contacto</div>
                   <div class="row">
                     <div class="col-md-6">
-                      <div
-                        class="cc-porfolio-image img-raised"
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="top-bottom"
-                      >
-                        <a
-                          href="https://github.com/CarlosMC104/Tamagotchi"
-                          target="_blank"
-                        >
-                          <figure class="cc-effect">
-                            <img
-                              src="images/Portfolio/Tamagotchi-1.JPG"
-                              alt="Image"
-                            />
-                            <figcaption>
-                              <div class="h4">Tamagotchi</div>
-                              <p>Práctica IPO2</p>
-                            </figcaption>
-                          </figure></a
-                        >
-                      </div>
-                      <div
-                        class="cc-porfolio-image img-raised"
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="top-bottom"
-                      >
-                        <a
-                          href="https://github.com/CarlosMC104/BottlePuzle"
-                          target="_blank"
-                        >
-                          <figure class="cc-effect">
-                            <img
-                              src="images/Portfolio/PuzleBottle.jpg"
-                              alt="Image"
-                            />
-                            <figcaption>
-                              <div class="h4">Bottle Puzle</div>
-                              <p>Práctica Sistemas Inteligentes</p>
-                            </figcaption>
-                          </figure></a
-                        >
+                      <div class="card-body">
+                        <p class="mb-0">
+                          <strong>Nombre</strong>
+                        </p>
+                        <p class="pb-2">Carlos Mohedano Callejo</p>
+                        <div class="row mb-3">
+                          <div class="col">
+                            <img class="img-contact" src="images/Contacto/informacion.svg" alt="" />
+                          </div>
+                        </div>
+                        <p class="mb-0">
+                          <strong>Correo</strong>
+                        </p>
+                        <p class="pb-2">Carlos.Mohedano@alu.uclm.es</p>
+                        <div class="row mb-3">
+                          <div class="col">
+                            <img class="img-contact" src="images/Contacto/correo.svg" alt="" />
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <div class="col">
+                            <a class="btn btn-primary btn-contacto"
+                              href="mailto:Carlos.Mohedano@alu.uclm.es?subject=Contactar con usted&body=Prueba email" ,
+                              target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Enviar mensaje
+                            </a>
+                          </div>
+                        </div>
                       </div>
                     </div>
+
                     <div class="col-md-6">
-                      <div
-                        class="cc-porfolio-image img-raised"
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="top-bottom"
-                      >
-                        <a
-                          href="https://github.com/CarlosMC104/MemeCollection"
-                          target="_blank"
-                        >
-                          <figure class="cc-effect">
-                            <img
-                              src="images/Portfolio/MemeCollection-1.JPG"
-                              alt="Image"
-                            />
-                            <figcaption>
-                              <div class="h4">MemeCollection</div>
-                              <p>Práctica IPO2</p>
-                            </figcaption>
-                          </figure></a
-                        >
-                      </div>
-                      <div
-                        class="cc-porfolio-image img-raised"
-                        data-aos="fade-up"
-                        data-aos-anchor-placement="top-bottom"
-                      >
-                        <a
-                          href="https://github.com/CarlosMC104/Minijuegos_JJC"
-                          target="_blank"
-                        >
-                          <figure class="cc-effect">
-                            <img
-                              src="images/Portfolio/MiniVerse.jpg"
-                              alt="Image"
-                            />
-                            <figcaption>
-                              <div class="h4">Aplicación "Miniverse"</div>
-                              <p>Práctica Multimedia</p>
-                            </figcaption>
-                          </figure></a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section" id="formacion">
-          <div class="absolute1" style="height: 150px; overflow: hidden">
-            <svg
-              viewBox="0 0 500 150"
-              preserveAspectRatio="none"
-              style="height: 100%; width: 100%"
-            >
-              <path
-                d="M-14.95,54.78 C243.50,197.88 349.20,-49.98 562.36,167.28 L500.00,150.00 L0.00,150.00 Z"
-                style="stroke: none; fill: rgb(138, 197, 248)"
-              ></path>
-            </svg>
-          </div>
-          <div class="container cc-education">
-            <div class="h4 text-center mb-4 title">Formación</div>
-            <div class="card">
-              <div class="row">
-                <div
-                  class="col-md-3 bg-primary"
-                  data-aos="fade-right"
-                  data-aos-offset="50"
-                  data-aos-duration="500"
-                >
-                  <div class="card-body cc-education-header">
-                    <p>2012 - 2016</p>
-                    <div class="h5">ESO</div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-9"
-                  data-aos="fade-left"
-                  data-aos-offset="50"
-                  data-aos-duration="500"
-                >
-                  <div class="card-body">
-                    <div
-                      class="h5"
-                      style="text-align: center; padding-top: 40px"
-                    >
-                      Enseñanza Secundaria Obligatoria
-                    </div>
-                    <p class="category" style="text-align: center">
-                      I.E.S Pablo Ruiz Picasso-Almadén
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="row">
-                <div
-                  class="col-md-3 bg-primary"
-                  data-aos="fade-right"
-                  data-aos-offset="50"
-                  data-aos-duration="500"
-                >
-                  <div class="card-body cc-education-header">
-                    <p>2016 - 2018</p>
-                    <div class="h5">Bachillerato Tecnológico</div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-9"
-                  data-aos="fade-left"
-                  data-aos-offset="50"
-                  data-aos-duration="500"
-                >
-                  <div class="card-body">
-                    <div
-                      class="h5"
-                      style="text-align: center; padding-top: 40px"
-                    >
-                      Bachillerato Tecnológico
-                    </div>
-                    <p class="category" style="text-align: center">
-                      I.E.S Pablo Ruiz Picasso-Almadén
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="row">
-                <div
-                  class="col-md-3 bg-primary"
-                  data-aos="fade-right"
-                  data-aos-offset="50"
-                  data-aos-duration="500"
-                >
-                  <div class="card-body cc-education-header">
-                    <p>2018 - Actualidad</p>
-                    <div class="h5">Carrera Ing.Informática</div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-9"
-                  data-aos="fade-left"
-                  data-aos-offset="50"
-                  data-aos-duration="500"
-                >
-                  <div class="card-body">
-                    <div
-                      class="h5"
-                      style="text-align: center; padding-top: 40px"
-                    >
-                      Ingeniería Informática
-                    </div>
-                    <p class="category" style="text-align: center">
-                      Escuela Superior Informática-Ciudad Real
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="section" id="contact">
-          <div class="absolute" style="height: 150px; overflow: hidden">
-            <svg
-              viewBox="0 0 500 150"
-              preserveAspectRatio="none"
-              style="height: 100%; width: 100%"
-            >
-              <path
-                d="M0.00,49.98 C-24.54,149.52 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
-                style="stroke: none; fill: rgb(138, 197, 248)"
-              ></path>
-            </svg>
-          </div>
-          <div
-            class="cc-contact-information"
-            style="background-image: url('images/Contacto/MapaChillon.JPG')"
-          >
-            <div class="container">
-              <div class="cc-contact">
-                <div class="row">
-                  <div class="col-md-9">
-                    <div class="card mb-0" data-aos="zoom-in">
-                      <div class="h4 text-center title">Contacto</div>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="card-body">
-                            <p class="mb-0">
-                              <strong>Nombre</strong>
-                            </p>
-                            <p class="pb-2">Carlos Mohedano Callejo</p>
-                            <div class="row mb-3">
-                              <div class="col">
-                                <img
-                                  class="img-contact"
-                                  src="images/Contacto/informacion.svg"
-                                  alt=""
-                                />
-                              </div>
-                            </div>
-                            <p class="mb-0">
-                              <strong>Correo</strong>
-                            </p>
-                            <p class="pb-2">Carlos.Mohedano@alu.uclm.es</p>
-                            <div class="row mb-3">
-                              <div class="col">
-                                <img
-                                  class="img-contact"
-                                  src="images/Contacto/correo.svg"
-                                  alt=""
-                                />
-                              </div>
-                            </div>
-                            <div class="row mb-3">
-                              <div class="col">
-                                <a
-                                  class="btn btn-primary btn-contacto"
-                                  href="mailto:Carlos.Mohedano@alu.uclm.es?subject=Contactar con usted&body=Prueba email"
-                                  ,
-                                  target="_blank"
-                                  data-aos="zoom-in"
-                                  data-aos-anchor="data-aos-anchor"
-                                  >Enviar mensaje
-                                </a>
-                              </div>
-                            </div>
+                      <div class="card-body">
+                        <p class="mb-0">
+                          <strong>Número</strong>
+                        </p>
+                        <p class="pb-2">608804031</p>
+                        <div class="row mb-3">
+                          <div class="col">
+                            <img class="img-contact" src="images/Contacto/contact.svg" alt="" />
                           </div>
                         </div>
 
-                        <div class="col-md-6">
-                          <div class="card-body">
-                            <p class="mb-0">
-                              <strong>Número</strong>
-                            </p>
-                            <p class="pb-2">608804031</p>
-                            <div class="row mb-3">
-                              <div class="col">
-                                <img
-                                  class="img-contact"
-                                  src="images/Contacto/contact.svg"
-                                  alt=""
-                                />
-                              </div>
-                            </div>
-
-                            <p class="mb-0">
-                              <strong>Ubicación</strong>
-                            </p>
-                            <p class="pb-2">Ciudad Real</p>
-                            <div class="row mb-3">
-                              <div class="col">
-                                <img
-                                  class="img-contact"
-                                  src="images/Contacto/location.svg"
-                                  alt=""
-                                />
-                              </div>
-                            </div>
+                        <p class="mb-0">
+                          <strong>Ubicación</strong>
+                        </p>
+                        <p class="pb-2">Ciudad Real</p>
+                        <div class="row mb-3">
+                          <div class="col">
+                            <img class="img-contact" src="images/Contacto/location.svg" alt="" />
                           </div>
                         </div>
                       </div>
@@ -855,50 +570,30 @@
         </div>
       </div>
     </div>
-    <div class="social-bar">
-      <a
-        href="https://www.linkedin.com/"
-        class="icon icon-linkedin"
-        target="_blank"
-      ></a>
-      <a
-        href="https://www.instagram.com/carlosmc104/"
-        class="icon icon-instagram"
-        target="_blank"
-      ></a>
-      <a
-        href="https://github.com/CarlosMC104"
-        class="icon icon-github"
-        target="_blank"
-      ></a>
+  </div>
+  </div>
+  <div class="social-bar">
+    <a href="https://www.linkedin.com/" class="icon icon-linkedin" target="_blank"></a>
+    <a href="https://www.instagram.com/carlosmc104/" class="icon icon-instagram" target="_blank"></a>
+    <a href="https://github.com/CarlosMC104" class="icon icon-github" target="_blank"></a>
+  </div>
+  <footer class="footer">
+    <div class="container text-center">
+      <a class="cc-github btn btn-link" href="https://github.com/CarlosMC104" target="_blank"><i
+          class="fa fa-github fa-2x" aria-hidden="true"></i></a><a class="cc-linkedin btn btn-link"
+        href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a><a
+        class="cc-instagram btn btn-link" href="https://www.instagram.com/carlosmc104/" target="_blank"><i
+          class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
     </div>
-    <footer class="footer">
-      <div class="container text-center">
-        <a
-          class="cc-github btn btn-link"
-          href="https://github.com/CarlosMC104"
-          target="_blank"
-          ><i class="fa fa-github fa-2x" aria-hidden="true"></i></a
-        ><a
-          class="cc-linkedin btn btn-link"
-          href="https://www.linkedin.com/"
-          target="_blank"
-          ><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a
-        ><a
-          class="cc-instagram btn btn-link"
-          href="https://www.instagram.com/carlosmc104/"
-          target="_blank"
-          ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
-        ></a>
-      </div>
-      <div class="h4 title text-center">Carlos Mohedano Callejo</div>
-      <div class="text-center text-muted"></div>
-    </footer>
-    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
-    <script src="js/core/popper.min.js?ver=1.1.0"></script>
-    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
-    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
-    <script src="js/aos.js?ver=1.1.0"></script>
-    <script src="scripts/main.js?ver=1.1.0"></script>
-  </body>
+    <div class="h4 title text-center">Carlos Mohedano Callejo</div>
+    <div class="text-center text-muted"></div>
+  </footer>
+  <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+  <script src="js/core/popper.min.js?ver=1.1.0"></script>
+  <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+  <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+  <script src="js/aos.js?ver=1.1.0"></script>
+  <script src="scripts/main.js?ver=1.1.0"></script>
+</body>
+
 </html>
