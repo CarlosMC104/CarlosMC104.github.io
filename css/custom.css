@@ -416,7 +416,16 @@ a:hover[class^="cc-github"]{
     font-size: 165%;
     line-height: 1.5rem;
  }
+ .v2{
+   font-size: 50px;
+   color: #000;
+   letter-spacing: .05em;
+   text-shadow: 
+     4px 4px 0px #d5d5d5, 
+     7px 7px 0px rgba(0, 0, 0, 0.2);
+ }
 }
+
 #timeline .demo-card .head h2 span {
   display: block;
   font-size: 0.6rem;
