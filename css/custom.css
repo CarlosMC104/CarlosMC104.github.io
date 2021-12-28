@@ -241,6 +241,7 @@ a:hover[class^="cc-github"]{
 .img-sobremi{
   object-fit: cover;
   box-shadow: 0 0 10px  rgba(11, 200, 247, 0.644);
+  border-radius: 20pt;
 
 }
 
