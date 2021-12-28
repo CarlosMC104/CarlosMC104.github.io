@@ -140,7 +140,6 @@ a:hover, a:focus {
 [class^="icon-"], [class*=" icon-"] {
   
   font-family: 'icomoon' !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -232,7 +231,7 @@ a:hover[class^="cc-github"]{
   border-style: none;
   margin: auto;
   width: 50%;
-  border-radius: 50%;
+  border-radius: 35;
   margin-top: 5px;
 
 }
